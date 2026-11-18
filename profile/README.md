@@ -31,6 +31,7 @@ Our solutions are deployed across public concessions, telecom networks, and larg
 * **PW Certify Enterprise:** Multi-platform mobile inspection client (Capacitor/Tauri) with cryptographic hardware fingerprinting, GPS polygon locking, and automated forensic PDF report generation.
 * **Bastion Audit Enterprise:** Autonomous security compliance agent, asset inventory scanner, and tamper-evident SHA-256 chained audit ledger for sensitive network perimeters.
 * **Resolve-IT:** Operational field ticketing bridge with bidirectional enterprise ITSM API synchronization (HaloITSM standard).
+* **PW ReguaMax:** Telecom and network hardware reconnaissance engine for rack telemetry, power infrastructure auditing, and physical asset mapping.
 
 ---
 
@@ -63,13 +64,14 @@ Field captures from enterprise deployments demonstrating dispatcher controls, mo
 
 ---
 
-### 🔍 Architectural Public Showcases & Open Specifications
+### 🔍 Architectural Public Showcases & Live Cloud Demos
 
-For architectural designs, public system specifications, and decoupled technical engines, explore our open showcases:
+For architectural designs, public system specifications, and interactive live cloud sandboxes, explore our open showcases:
 
-* 📡 **[PW OpsDesk Architecture Showcase](https://github.com/welzim19-star/pw-opsdesk-showcase):** High-level event-driven dispatch and SLA specifications.
-* 🛡️ **[Bastion-Core Engine](https://github.com/welzim19-star/bastion-core):** Sanitized, open-source asynchronous network audit daemon and SHA-256 cryptographic ledger.
-* ⚡ **[Systems Engineer Profile (@welzim19-star)](https://github.com/welzim19-star):** Technical portfolio and low-level engineering implementations.
+* 📡 **[PW OpsDesk Architecture Showcase](https://github.com/welzim19-star/pw-opsdesk-showcase)** — Event-driven dispatch, RBAC, and live Certify Bridge simulator ([🌐 Live Demo](https://pw-opsdesk-showcase.onrender.com)).
+* 🛡️ **[Bastion-Core Engine](https://github.com/welzim19-star/bastion-core)** — Asynchronous network audit daemon and SHA-256 cryptographic ledger ([🌐 Live Console](https://bastion-core-dashboard.onrender.com)).
+* 🔐 **[Archon-V Security Gateway](https://github.com/welzim19-star/archon-v)** — Pre-commit secret/PII interceptor and ABAC gateway ([🌐 Live Playground](https://archon-v-playground.onrender.com)).
+* ⚡ **[Systems Engineer Profile (@welzim19-star)](https://github.com/welzim19-star)** — Technical portfolio and low-level engineering implementations.
 
 ---
 
@@ -89,12 +91,14 @@ Nossas soluções atendem concessionárias de serviços públicos, redes de tele
 * **PW Certify Enterprise:** Cliente móvel multiplataforma de inspeção técnica (Capacitor/Tauri) com impressão digital criptográfica de hardware, bloqueio por polígono GPS e emissão automatizada de laudos periciais em PDF.
 * **Bastion Audit Enterprise:** Agente autônomo de conformidade de segurança, inventário de ativos em tempo real e trilha imutável de auditoria com encadeamento criptográfico SHA-256 para perímetros de rede sensíveis.
 * **Resolve-IT:** Ponte operacional de atendimento e resolução de chamados de campo com sincronização bidirecional com APIs ITSM corporativas (padrão HaloITSM).
+* **PW ReguaMax:** Motor de reconhecimento de hardware de telecomunicações e rede para telemetria de racks, auditoria de réguas de energia e mapeamento de ativos físicos.
 
-### 🔍 Especificações Públicas & Vitrines Técnicas Desacopladas
+### 🔍 Especificações Públicas & Demonstrações ao Vivo
 
-* 📡 **[Vitrine Arquitetural PW OpsDesk](https://github.com/welzim19-star/pw-opsdesk-showcase):** Especificação de despacho orientado a eventos e SLAs corporativos.
-* 🛡️ **[Motor Bastion-Core](https://github.com/welzim19-star/bastion-core):** Daemon assíncrono de auditoria de rede e ledger criptográfico SHA-256 sanitizado (código aberto).
-* ⚡ **[Perfil de Engenharia de Software (@welzim19-star)](https://github.com/welzim19-star):** Portfólio técnico e implementações de baixo nível.
+* 📡 **[Vitrine Arquitetural PW OpsDesk](https://github.com/welzim19-star/pw-opsdesk-showcase)** — Despacho orientado a eventos e simulador Certify ([🌐 Demo ao Vivo](https://pw-opsdesk-showcase.onrender.com)).
+* 🛡️ **[Motor Bastion-Core](https://github.com/welzim19-star/bastion-core)** — Daemon assíncrono de auditoria de rede e ledger SHA-256 ([🌐 Console ao Vivo](https://bastion-core-dashboard.onrender.com)).
+* 🔐 **[Archon-V Security Gateway](https://github.com/welzim19-star/archon-v)** — Gateway DevSecOps pré-commit anti-vazamento ([🌐 Playground ao Vivo](https://archon-v-playground.onrender.com)).
+* ⚡ **[Perfil de Engenharia de Software (@welzim19-star)](https://github.com/welzim19-star)** — Portfólio técnico e implementações de baixo nível.
 
 </details>
 

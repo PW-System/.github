@@ -1,0 +1,33 @@
+name: Profile & Assets CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Verify profile READMEs and assets
+        run: |
+          python -c "
+          import os, re
+          for f in ['profile/README.md', 'profile/README.pt-BR.md']:
+              assert os.path.isfile(f), f'Missing {f}'
+              txt = open(f, encoding='utf-8').read()
+              assert len(txt) > 500, f'{f} unexpectedly short'
+              for asset in re.findall(r'profile/assets/([A-Za-z0-9_.-]+)', txt):
+                  p = os.path.join('profile', 'assets', asset)
+                  assert os.path.isfile(p), f'Referenced asset missing: {p}'
+          print('All profile READMEs and assets verified successfully.')
+          "

@@ -31,6 +31,7 @@ Nossas soluções atendem concessionárias de serviços públicos, redes de tele
 * **PW Certify Enterprise:** Cliente móvel multiplataforma de inspeção técnica (Capacitor/Tauri) com impressão digital criptográfica de hardware, bloqueio por polígono GPS e emissão automatizada de laudos periciais em PDF.
 * **Bastion Audit Enterprise:** Agente autônomo de conformidade de segurança, inventário de ativos em tempo real e trilha imutável de auditoria com encadeamento criptográfico SHA-256 para perímetros de rede sensíveis.
 * **Resolve-IT:** Ponte operacional de atendimento e resolução de chamados de campo com sincronização bidirecional com APIs ITSM corporativas (padrão HaloITSM).
+* **PW ReguaMax:** Motor de reconhecimento de hardware de telecomunicações e rede para telemetria de racks, auditoria de réguas de energia e mapeamento de ativos físicos.
 
 ---
 
@@ -63,13 +64,14 @@ Registros de campo em ambiente corporativo demonstrando os fluxos de despacho, a
 
 ---
 
-### 🔍 Especificações Públicas & Vitrines Técnicas Desacopladas
+### 🔍 Especificações Públicas & Demonstrações ao Vivo
 
-Para projetos de arquitetura, especificações abertas e motores de software desacoplados:
+Para projetos de arquitetura, especificações abertas e ambientes interativos publicados em nuvem:
 
-* 📡 **[Vitrine Arquitetural PW OpsDesk](https://github.com/welzim19-star/pw-opsdesk-showcase):** Especificação de despacho orientado a eventos e SLAs corporativos.
-* 🛡️ **[Motor Bastion-Core](https://github.com/welzim19-star/bastion-core):** Daemon assíncrono de auditoria de rede e ledger criptográfico SHA-256 sanitizado (código aberto).
-* ⚡ **[Perfil de Engenharia de Software (@welzim19-star)](https://github.com/welzim19-star):** Portfólio técnico e implementações de baixo nível.
+* 📡 **[Vitrine Arquitetural PW OpsDesk](https://github.com/welzim19-star/pw-opsdesk-showcase)** — Despacho orientado a eventos e simulador Certify ([🌐 Demo ao Vivo](https://pw-opsdesk-showcase.onrender.com)).
+* 🛡️ **[Motor Bastion-Core](https://github.com/welzim19-star/bastion-core)** — Daemon assíncrono de auditoria de rede e ledger SHA-256 ([🌐 Console ao Vivo](https://bastion-core-dashboard.onrender.com)).
+* 🔐 **[Archon-V Security Gateway](https://github.com/welzim19-star/archon-v)** — Gateway DevSecOps pré-commit anti-vazamento ([🌐 Playground ao Vivo](https://archon-v-playground.onrender.com)).
+* ⚡ **[Perfil de Engenharia de Software (@welzim19-star)](https://github.com/welzim19-star)** — Portfólio técnico e implementações de baixo nível.
 
 ---
 
